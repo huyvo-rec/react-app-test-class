@@ -1,0 +1,35 @@
+:root {
+  --red--color: #d95853;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-color: #c5c4be;
+  --silver-color: #e9eaef;
+  --green-color: #4b9d86;
+  --yellow-color: #e9d489;
+}
+
+* {
+  user-select: none;
+}
+
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+}
+
+.information {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.information__container {
+  border-radius: 25px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 5px 1px var(--gray-color);
+  display: flex;
+  flex-direction: column;
+}
